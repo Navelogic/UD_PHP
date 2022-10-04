@@ -13,3 +13,5 @@ let valorDois = 20;
 let temp = valorUm;
 valorUm = valorDois;
 valorDois = temp;
+
+console.log(temp);

@@ -33,3 +33,11 @@ b = a + 1;
 console.log(a);
 a = b + 1;
 console.log(a, b);
+
+//e)
+a = 10;
+b = 5;
+c = a + b;
+b = 20;
+a = 10; 
+console.log(a, b, c);

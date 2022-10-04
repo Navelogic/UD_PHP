@@ -41,3 +41,12 @@ c = a + b;
 b = 20;
 a = 10; 
 console.log(a, b, c);
+
+//f)
+let x = 1;
+let y = 2;
+let z = y - x;
+console.log(z);
+x = 5;
+y = x + z;
+console.log(x,y,z);

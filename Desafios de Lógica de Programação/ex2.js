@@ -5,4 +5,13 @@ console.log(`O valor de b é ${b}`);
 b = 5;
 console.log(`Algo mudou! o valor de a é ${a} e o valor de b é ${b}`);
 
+a = 30;
+b = 20;
+let c = a + b;
+console.log(c);
+b = 10;
+console.log(b, c);
+c = a = b;
+console.log(a, b, c);
+
 

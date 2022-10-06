@@ -1,4 +1,5 @@
 let mediaUm, mediaDois, mediaTres, mediaQuatro, aluno, soma, mediaTotal, situacao, mediaEmergente;
+
 aluno = prompt("Passe o nome do Aluno");
 mediaUm = parseFloat(prompt(`Qual foi a nota de ${aluno} no PRIMEIRO semestre?`));
 mediaDois = parseFloat(prompt(`Qual foi a nota de ${aluno} no SEGUNDO semestre?`));
@@ -19,7 +20,7 @@ if(mediaTotal >= 9){
   document.write(`${aluno} está REPROVADO! Sua média é ${mediaTotal}! Você tirou um D`);
   situacao = "Reprovado";
 } else{
-  document.write(`${aluno} está REPROVADO! Sua média é ${mediaTotal}! Você tirou um D`);
+  document.write(`${aluno} está REPROVADO! Sua média é ${mediaTotal}! Você tirou um E`);  
   situacao = "Reprovado";
 };
 

@@ -1,5 +1,4 @@
 let mediaUm, mediaDois, mediaTres, mediaQuatro, aluno, soma, mediaTotal, situacao, mediaEmergente;
-
 aluno = prompt("Passe o nome do Aluno");
 mediaUm = parseFloat(prompt(`Qual foi a nota de ${aluno} no PRIMEIRO semestre?`));
 mediaDois = parseFloat(prompt(`Qual foi a nota de ${aluno} no SEGUNDO semestre?`));
@@ -30,4 +29,4 @@ if(situacao == "Reprovado"){
   mediaEmergente = parseFloat(prompt(`${aluno} foi reprovado, por favor passe mais uma nota.`));
   soma = (mediaUm + mediaDois + mediaTres + mediaQuatro + mediaEmergente);
   mediaTotal = soma/5;
-};
+}

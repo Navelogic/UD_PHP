@@ -1,3 +1,5 @@
+// Pergunta ao USER se ele é real e responde!
+
 let real = prompt('Você é real?');
 
 if(real == 'Sim'){
